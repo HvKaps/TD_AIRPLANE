@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+    background-color: rgba(0, 0, 0, 0.158); 
+ 
+  }
+  .navbar-nav .nav-link {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+
+
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ddd;
+  }
+  .navbar-nav .nav-link.active {
+    border-radius: 20px;
+      color:rgb(100, 149, 237);
+      
+     
+    }
+    
+  .hero {
+    background: url('image/ACCEUIL.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -60px;
+  }
+  .hero h1 {
+    font-size: 5vw; 
+    font-weight: bolder;
+  }
+  .hero p {
+    font-size: 1.5vw; 
+  }
+  .section-title {
+    font-size: 3vw;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  .ulm-section .card-img-top {
+      
+    height: 400px; 
+    width: 100%; 
+  }
+
+  .ulm-section .card-body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .large-image {
+    max-height: 600px; 
+    width: 95%;
+  }
